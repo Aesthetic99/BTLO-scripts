@@ -1,7 +1,7 @@
-# number = -0.841600711036728
 
-number = 5
-def divide(num):
+number = float(input("Enter the value that you found: "))
+
+def divide(num): #a step mentioned in the challenge hint
     return num/3
 
 def sub(num):
@@ -13,107 +13,104 @@ def mult(num):
 def addition(num):
     return num + 5
 
-funcList = [divide(number),sub(number),mult(number),addition(number)]
+#You can see 24 different order of the given steps 
+#4*3*2*1
 
-print (funcList[3])
+#divide
+print (divide(sub(mult(addition(number)))))
 
+print ("\n\n")
 
-# #divide
-# print (divide(sub(mult(addition(number)))))
+print(divide(sub(addition(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(divide(sub(addition(mult(number)))))
+print (divide(mult(sub(addition(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (divide(mult(sub(addition(number)))))
+print(divide(mult(addition(sub(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(divide(mult(addition(sub(number)))))
+print (divide(addition(sub(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (divide(addition(sub(mult(number)))))
+print (divide(addition(mult(sub(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (divide(addition(mult(sub(number)))))
+#sum
+print (addition(sub(mult(divide(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# #sum
-# print (addition(sub(mult(divide(number)))))
+print(addition(sub(divide(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(addition(sub(divide(mult(number)))))
+print (addition(mult(sub(divide(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (addition(mult(sub(divide(number)))))
+print(addition(mult(divide(sub(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(addition(mult(divide(sub(number)))))
+print (addition(divide(sub(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (addition(divide(sub(mult(number)))))
+print (addition(divide(mult(sub(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (addition(divide(mult(sub(number)))))
+#subtraction
+print (sub(divide(mult(addition(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# #subtraction
-# print (sub(divide(mult(addition(number)))))
+print(sub(divide(addition(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(sub(divide(addition(mult(number)))))
+print (sub(mult(divide(addition(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (sub(mult(divide(addition(number)))))
+print(sub(mult(addition(divide(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(sub(mult(addition(divide(number)))))
+print (sub(addition(divide(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (sub(addition(divide(mult(number)))))
+print (sub(addition(mult(divide(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (sub(addition(mult(divide(number)))))
+#mult
+print (mult(sub(div(addition(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# #mult
-# print (mult(sub(div(addition(number)))))
+print(mult(sub(addition(divide(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(mult(sub(addition(divide(number)))))
+print (mult(divide(sub(addition(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (mult(divide(sub(addition(number)))))
+print(mult(divide(addition(sub(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print(mult(divide(addition(sub(number)))))
+print (mult(divide(sub(mult(number)))))
 
-# print ("\n\n")
+print ("\n\n")
 
-# print (mult(divide(sub(mult(number)))))
+print (mult(addition(divide(sub(number)))))
 
-# print ("\n\n")
-
-# print (mult(addition(divide(sub(number)))))
-
-# print ("\n\n")
